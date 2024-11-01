@@ -1,5 +1,5 @@
 # Simple Chat
-_Created in 2022_
+_Created in 2023_
 
 **Simple Chat** is a minimalistic and user-friendly chatting application designed to offer a streamlined and efficient communication experience, with some extra features for added convenience and functionality.
 
