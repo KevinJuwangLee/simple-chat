@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Chat</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Simple C<a href="/help">h</a>at</h1>
+    <div id="contentName">
+      <h3>Name</h3>
+      <form id="nameForm">
+        <input id="name" placeholder="Name" spellcheck="false" autocomplete="off">
+        <input id="room" placeholder="Room" spellcheck="false" autocomplete="off">
+        <button id="joinButton">Join</button>
+        <div id="joinError"></div>
+      </form>
+    </div>
+    <div id="chat">
+      <div id="message-div">
+        <h2>Messages</h2>
+        <h3>Welcome to <span id="roomName"></span>, <span id="nameName"></span></h3>
+        <ul id="messages"></ul>
+        <ul id="typing"></ul>
+        <form id="messageForm">
+          <input
+            id="text"
+            placeholder="Message"
+            spellcheck="false"
+            autocomplete="off"
+          /><button>submit</button>
+        </form>
+      </div>
+      <div id="users-div">
+        <h2>Users</h2>
+        <ul id="users"></ul>
+      </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script> <!-- use the library -->
+    <script src="/script.js"></script> <!-- use "script.js" file --> 
+  </body>
+</html>
